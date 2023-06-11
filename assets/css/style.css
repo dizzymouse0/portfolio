@@ -23,7 +23,7 @@ body {
 
 .vision {
     color:rgb(4, 37, 37);
-    font-size: xx-large;
+    font-size: 39px;
     font-style:normal;
     font-weight: 600;
     text-decoration: none;
@@ -36,7 +36,7 @@ body {
 
 .portfolioLink {
     color:rgb(4, 37, 37);
-    font-size: xx-large;
+    font-size: 39px;
     font-style:normal;
     font-weight: 600;
     text-decoration: none;
@@ -48,12 +48,12 @@ body {
 
 .contactLink {
     color:rgb(4, 37, 37);
-    font-size: xx-large;
+    font-size: 39px;
     font-style:normal;
     font-weight: 600;
     text-decoration: none;
     background-color: none;
-}
+}    
 .contactLink:hover {
     color: indianred;
 }
@@ -105,14 +105,6 @@ body {
 }
 */
 
-.content {
-    flex: 1 0 0;
-    margin-top: 15px;
-    margin-left: 30px;
-    background-color: #90caee7a;
-
-}
-
 .vision-box {
     justify-content:end;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -126,9 +118,17 @@ body {
 
 }
 
+.content {
+    flex: 1 0 0;
+    margin-top: 7px;
+    margin-left: 30px;
+    background-color: #90caee7a;
+
+}
+
 .refactor-box {
     margin-left: 50px;
-    background-color: rgba(129, 253, 212, 0.411);
+    background-color: #6380e033;
     padding: 15px;
     border-style: solid;
     border-width: 1px;
@@ -136,6 +136,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .refactor-box:hover {
     background-image: url("../images/Horiseon_screenshot.png");
@@ -143,6 +145,8 @@ body {
     height: auto;
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom:2px;
+    margin-left: 30px;
 }
 .refactorLink {
     text-decoration: none;
@@ -154,7 +158,7 @@ body {
 
 .portfolio-box {
     margin-left: 50px;
-    background-color: rgba(129, 253, 212, 0.411);
+    background-color: #6380e033;
     padding: 15px;
     border-style: solid;
     border-width: 1px;
@@ -169,8 +173,10 @@ body {
     height: auto;
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom:2px;
+    margin-left: 30px;
 }
-.portfolioLink {
+.portfolioBoxLink {
     text-decoration: none;
     font-weight: 800;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -179,7 +185,7 @@ body {
 
 .Javascript-box {
     margin-left: 50px;
-    background-color: rgba(129, 253, 212, 0.411);
+    background-color: #6380e033;
     padding: 15px;
     border-style: solid;
     border-width: 1px;
@@ -189,11 +195,13 @@ body {
     text-decoration: none;
 }
 .Javascript-box:hover {
-    background-image: url("../images/skate-park-editz-dt-24_small.jpg");
+    background-image: url("../images/JavaScript_code_l_small.png");
     width:auto;
     height: auto;
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom: 2px;
+    margin-left: 30px;
 }
 .javascriptLink {
     text-decoration: none;
@@ -205,7 +213,7 @@ body {
 
 .future-box {
     margin-left: 50px;
-    background-color: rgba(129, 253, 212, 0.411);
+    background-color: #6380e033;
     padding: 15px;
     border-style: solid;
     border-width: 1px;
@@ -214,17 +222,32 @@ body {
     font-weight: 700;
     text-decoration: none;
 }
+.future-box:hover {
+    background-image: url("../images/the-moon-near-side_small.jpg");
+    width:auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left:30px;
+}
+.futureBoxLink {
+    text-decoration: none;
+    font-weight: 800;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
 
 .contact-me {
+    margin-top:7px;
     margin-right: 20px;
     padding: 20px;
     clear: both;
-    float:right;
-    align-self:auto;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #13a2f062;
 }
  
 .message-image {
@@ -240,7 +263,6 @@ body {
     text-align: center;
     text-decoration: none;
     background-color: rgba(202, 187, 243, 0.205);
-    border-color: aqua;
 }
 
 .footer a {
