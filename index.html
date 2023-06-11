@@ -12,7 +12,6 @@
 <!-- Created a unique header using linear gradient -->
 <body>
     <header class="header">
-        
         <h1>Nick Page</h1>
         <nav>
             <ul>
@@ -21,7 +20,7 @@
                     <a class="vision"href="#vision">Vision</a>
                 </li>
                 <li>
-                    <a href="#content">Portfolio</a>
+                    <a class="portfolioLink" href="#content">Portfolio</a>
                 </li>
                 <li>
                     <a href="#social-media-marketing">Contact</a>
@@ -37,32 +36,39 @@
         <!-- Added unique identifier for search-engine-optimization link -->
         <section id="vision" class="vision-box">
             <img src="./assets/images/IMG-7530.JPG" class="prof-pic"
-                alt="notepad on wooden desk, along with coffee and a laptop"/>
+                alt="smiling profile picture of the author, Nick Page"/>
             <h2>Vision</h2>
             <p>
-                Hello, my name is Nick Page. I recentally started my codeing journey and am excited to start applying my new skills
-                To build clean and easy to understand code that meets or excells project demand.
-                Please enjoy my site and check out my past projects. Thank you.
+                Hello, my name is Nick Page. I recentally started my coding journey and am excited to start applying my new skills
+                to build easy to understand code that meets or excells project demand.
             </p>
+            <p>Please enjoy my site and check out my past projects. Thank you.</p>
         </section>
-        <!--added an id tag to link to my projects-->
+        <!--added an id tag to link to all my projects-->
         <section id="content" class="content">
             <section id="portfolio" class="refactor-box">
+                <!--added link to previous work, starting with the refactor challenge-->
+                <nav>
+                    <a href="https://dizzymouse0.github.io/Code-Refactor/">Refactor</a>
+                </nav>
+                <p>A lesson where I refactored code.</p>
+            </section>
+
+            <section id="portfolio" class="portfolio-box">
+                <!--included link to this project page-->
+                <nav>
+                    <a href="https://dizzymouse0.github.io/portfolio/">Portfolio</a>
+                </nav>
+                <p>A portfilio showing my work.</p>
+            </section>
+
+            <section id="portfolio" class="Javascript-box">
+                <!--will add additional links going forward as I fill out my portfolio-->
                 <header>Refactor</header>
                 <p>A lesson where I refactored code.</p>
             </section>
 
-            <section id="portfolio" class="refactor-box">
-                <header>Refactor</header>
-                <p>A lesson where I refactored code.</p>
-            </section>
-
-            <section id="portfolio" class="refactor-box">
-                <header>Refactor</header>
-                <p>A lesson where I refactored code.</p>
-            </section>
-
-            <section id="portfolio" class="refactor-box">
+            <section id="portfolio" class="future-box">
                 <header>Refactor</header>
                 <p>A lesson where I refactored code.</p>
             </section>
@@ -70,18 +76,20 @@
         </section>    
     </main>
     <!-- Assigned aside element title -->
-    <aside class="contact-me">
-        <article>
-            <h3>Contact</h3>
-            <img src="./assets/images/762256_Contact1-01.jpg" class="message-me" alt="gear, arrow and money sign icon" />
-            <p>
-                For business inquiries, please messge me through GitHub. Thank you.
-            </p>
-        </article>
-    </aside>
+        <aside class="contact-me">
+            <article>
+                <h3>Contact</h3>
+                <img src="./assets/images/762256_Contact1-01.jpg" class="message-image" alt="gear, arrow and money sign icon" />
+                <p>
+                    For business inquiries, please messge me through GitHub. Thank you.
+                </p>
+            </article>
+        </aside>
     <!-- Added footer element title and updated date -->
     <footer class="footer">
-        <h2>NickPage.com</h2>
+        <nav>
+            <a href="https://dizzymouse0.github.io/portfolio/">NickPage.com</a>
+        </nav>
         <p>
             2023
         </p>
