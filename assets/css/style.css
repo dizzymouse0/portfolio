@@ -128,7 +128,7 @@ body {
 
 .refactor-box {
     margin-left: 50px;
-    background-color: aquamarine;
+    background-color: rgba(129, 253, 212, 0.411);
     padding: 15px;
     border-style: solid;
     border-width: 1px;
@@ -154,29 +154,65 @@ body {
 
 .portfolio-box {
     margin-left: 50px;
-    background-color: aquamarine;
+    background-color: rgba(129, 253, 212, 0.411);
     padding: 15px;
     border-style: solid;
     border-width: 1px;
-    text-align: center;
+    text-align: Left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+.portfolio-box:hover {
+    background-image: url("../images/skate-park-editz-dt-24_small.jpg");
+    width:auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.portfolioLink {
+    text-decoration: none;
+    font-weight: 800;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
 }
 
 .Javascript-box {
     margin-left: 50px;
-    background-color: aquamarine;
+    background-color: rgba(129, 253, 212, 0.411);
     padding: 15px;
     border-style: solid;
     border-width: 1px;
-    text-align: center;
+    text-align: Left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
 }
+.Javascript-box:hover {
+    background-image: url("../images/skate-park-editz-dt-24_small.jpg");
+    width:auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.javascriptLink {
+    text-decoration: none;
+    font-weight: 800;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+
 
 .future-box {
     margin-left: 50px;
-    background-color: aquamarine;
+    background-color: rgba(129, 253, 212, 0.411);
     padding: 15px;
     border-style: solid;
     border-width: 1px;
-    text-align: center;
+    text-align: Left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 .contact-me {
