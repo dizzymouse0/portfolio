@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-image: linear-gradient(50deg,  rgba(2, 2, 112, 0.637), #267c9600), url("../images/IMG_4987.JPG");
+    background-image: linear-gradient(50deg,  rgba(116, 15, 247, 0.233), #267c9600), url("../images/IMG_4987.JPG");
     padding: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 5px;
@@ -116,10 +116,11 @@ body {
 .vision-box {
     justify-content:end;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 75%;
+    width: 100%;
     margin-left: 15px;
     padding-left: 5px;
-    padding-top: 5px;
+    padding-top: 6px;
+    padding-bottom: 5px;
     /* more linear gradients to distiguish Vison box, and because I like gradients :) */
     background-image: linear-gradient(0deg, rgba(0, 195, 255, 0.267), rgba(0, 102, 255, 0.247));
 
@@ -127,11 +128,57 @@ body {
 
 .refactor-box {
     margin-left: 50px;
+    background-color: aquamarine;
+    padding: 15px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: Left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
 }
+.refactor-box:hover {
+    background-image: url("../images/Horiseon_screenshot.png");
+    width:auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.refactorLink {
+    text-decoration: none;
+    font-weight: 800;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+
 
 .portfolio-box {
     margin-left: 50px;
+    background-color: aquamarine;
+    padding: 15px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
 }
+
+.Javascript-box {
+    margin-left: 50px;
+    background-color: aquamarine;
+    padding: 15px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+
+.future-box {
+    margin-left: 50px;
+    background-color: aquamarine;
+    padding: 15px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+
 .contact-me {
     margin-right: 20px;
     padding: 20px;
@@ -158,7 +205,6 @@ body {
     text-decoration: none;
     background-color: rgba(202, 187, 243, 0.205);
     border-color: aqua;
-    padding
 }
 
 .footer a {
@@ -167,4 +213,10 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 750;
     text-decoration: none;
+}
+@media screen and (max-width: 750px) {
+    header, main {
+        flex-direction: column;
+    }
+    
 }
