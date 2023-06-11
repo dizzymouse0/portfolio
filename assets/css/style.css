@@ -25,21 +25,37 @@ body {
     color:rgb(4, 37, 37);
     font-size: xx-large;
     font-style:normal;
+    font-weight: 600;
     text-decoration: none;
     background-color: none;
 }
-
 /* added hovor effects to header bar */
 .vision:hover {
-    color: aqua;
+    color: rgba(11, 8, 194, 0.452);
 }
 
 .portfolioLink {
     color:rgb(4, 37, 37);
     font-size: xx-large;
     font-style:normal;
+    font-weight: 600;
     text-decoration: none;
     background-color: none;
+}
+.portfolioLink:hover {
+    color: rgba(19, 56, 1, 0.589);
+}
+
+.contactLink {
+    color:rgb(4, 37, 37);
+    font-size: xx-large;
+    font-style:normal;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: none;
+}
+.contactLink:hover {
+    color: indianred;
 }
 
 .prof-pic {
@@ -140,7 +156,9 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     text-decoration: none;
-    
+    background-color: rgba(202, 187, 243, 0.205);
+    border-color: aqua;
+    padding
 }
 
 .footer a {
