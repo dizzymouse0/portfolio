@@ -44,15 +44,18 @@
             <p>Please enjoy my site and check out my past projects. Thank you.</p>
         </section>
 
+        
         <!--added an id tag to link to all my projects-->
         <section id="portfolio" class="content">
-            <section class="refactor-box">
-                <nav>
-                    <a class="refactorLink" href="https://dizzymouse0.github.io/Code-Refactor/">Refactor</a>
-                </nav> 
-                <!--added link to previous work, starting with the refactor challenge-->
-                <p>Refactoring a companies code.</p>
-            </section>
+            <nav>
+                <a class="refactorLink" href="https://dizzymouse0.github.io/Code-Refactor/">
+                    <section class="refactor-box">
+                        </nav> 
+                        <!--added link to previous work, starting with the refactor challenge-->
+                        <p>Refactoring a companies code.</p>
+                    </section>
+                </a>
+            </nav>
 
             <section class="portfolio-box">
                 <!--included link to this project page-->
@@ -84,8 +87,22 @@
             <article>
                 <h3>Contact</h3>
                 <form>
-                    <input type="text" placeholder="type email here" />
-                    <button>Submit</button>
+                    <p>    
+                        <label for="username">Name:</label>
+                        <input class="text-contact-input" id="username" type="text" placeholder="First Last" />
+                    </p>
+                    <p>
+                        <input class="text-contact-input" id="email" type="text" placeholder="email" />
+                        <button>Submit</button>
+                    </p>
+                    <p>
+                        <label for="comment">Comment:</label>
+                        <textarea class="text-input" id="comment" placeholder="Great article!"></textarea>
+                      </p>
+                      <p class="flex-row">
+                        <input class="checkbox" id="agreement" type="checkbox" />
+                        <label for="agreement">Click to receive updates from NickPage.com</label>
+                      </p>    
                 </form>
                 <img src="./assets/images/762256_Contact1-01.jpg" class="message-image" alt="mail, phone, @ symbol, and phone icons" />
                 <p>
