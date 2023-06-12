@@ -108,11 +108,10 @@ body {
 .vision-box {
     justify-content:end;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
     width: 100%;
-    margin-left: 15px;
-    padding-left: 5px;
-    padding-top: 6px;
-    padding-bottom: 5px;
+    margin-left: 30px;
+    padding: 15px;
     /* more linear gradients to distiguish Vison box, and because I like gradients :) */
     background-image: linear-gradient(0deg, rgba(0, 195, 255, 0.267), rgba(0, 102, 255, 0.247));
 
@@ -121,17 +120,14 @@ body {
 .content {
     margin-top: 7px;
     margin-left: 30px;
-    background-color: #90caee7a;
+    background-color: #6380e033;
 
 }
 
 .refactor-box {
     margin-left: 50px;
-    background-color: #6380e033;
-    padding: 15px;
-    border-style: solid;
+    background-image: url("../images/horiseon_bigger.png");
     border-width: 1px;
-    text-align: Left;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     text-decoration: none;
@@ -140,12 +136,11 @@ body {
     height: 100px;
 }
 .refactor-box:hover {
-    background-image: url("../images/Horiseon_screenshot.png");
+    background-image: url("../images/horiseon_bigger.png");
     width:auto;
-    height: 100px;
+    height: 300px;
     background-repeat: no-repeat;
     background-position: center;
-    margin-bottom:2px;
     margin-left: 30px;
 }
 .refactorLink {
@@ -155,7 +150,6 @@ body {
     font-size: xx-large;
     
 }
-
 
 .portfolio-box {
     margin-left: 50px;
@@ -241,11 +235,13 @@ body {
 }
 
 .contact-me {
-    margin-top:7px;
+    margin-top:25px;
+    margin-left: 30px;
     margin-right: 20px;
     padding: 20px;
-    clear: both;
     width: 20%;
+    border-style: solid;
+    border-bottom-width: 5px;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #13a2f062;
@@ -253,6 +249,20 @@ body {
 .text-contact-input {
     width: 100%;
     max-width: 100%;
+}
+
+/*trying to get flex to work*/
+.flex-row {
+    display: flex;
+    align-items: center;
+}
+  
+  .flex-row select {
+    flex: 1 0 0;
+    margin-left: 2%;
+}
+.flex-row input {
+    margin-right: 2%;
 }
  
 .message-image {
@@ -277,9 +287,9 @@ body {
     font-weight: 750;
     text-decoration: none;
 }
-@media screen and (max-width: 750px) {
-    header, main {
-        flex-direction: column;
+@media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
     }
-    
 }
+  
