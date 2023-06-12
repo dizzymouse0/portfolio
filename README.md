@@ -13,7 +13,7 @@ A profile page that showcases my previous work.
 
 ## Credits
 Nikki, my tutors, and my wonderful classmates.
-### Additional Resources 
+### Additional Resources:
 Slack-Rescources,
 W3 Schools Tutorials,
 MDN Tutorials.
