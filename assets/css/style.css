@@ -28,11 +28,11 @@ body {
 }
 /*tryin to change header link color*/
 .nickPageHeaderLink:link {
-    color: rgb(228, 171, 14);
+    color: #240505;
 }
 /*found out I needed to add visited as well*/
 .nickPageHeaderLink:visited {
-    color:rgb(70, 10, 10);
+    color:#240505;
 }
 
 .vision {
@@ -69,6 +69,7 @@ body {
     background-color: none;
 }    
 .contactLink:hover {
+    /*nice color*/
     color: indianred;
 }
 
