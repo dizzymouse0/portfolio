@@ -20,6 +20,20 @@ body {
     font-style:oblique;
     height: 100px;
 }
+.nickPageHeaderLink {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* adding "text-decoratin:none" removes underline on links */
+    text-decoration: none;
+    font-size: 40px;
+}
+/*tryin to change header link color*/
+.nickPageHeaderLink:link {
+    color: rgb(228, 171, 14);
+}
+/*found out I needed to add visited as well*/
+.nickPageHeaderLink:visited {
+    color:rgb(70, 10, 10);
+}
 
 .vision {
     color:rgb(4, 37, 37);
@@ -31,7 +45,7 @@ body {
 }
 /* added hovor effects to header bar */
 .vision:hover {
-    color: rgba(11, 8, 194, 0.452);
+    color: rgba(23, 39, 182, 0.863);
 }
 
 .portfolioLink {
@@ -43,7 +57,7 @@ body {
     background-color: none;
 }
 .portfolioLink:hover {
-    color: rgba(19, 56, 1, 0.589);
+    color: rgba(55, 160, 3, 0.747);
 }
 
 .contactLink {
