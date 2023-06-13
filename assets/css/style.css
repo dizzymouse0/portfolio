@@ -16,6 +16,7 @@ body {
     padding: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 5px;
+    margin-left: 1%;
     font-style:oblique;
     height: 100px;
 }
@@ -72,12 +73,6 @@ body {
     color: indianred;
 }
 
-.prof-pic {
-    width:200px;
-    height:auto;
-    border-radius: 25px;
-}
-
 .header h1 {
     display: inline-block;
     font-size:48px;
@@ -90,10 +85,6 @@ body {
     font-size: 20px;
 }
 
-/*.header nav ul {
-    list-style-type: none;
-}*/
-
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -103,41 +94,49 @@ body {
 .hero {
     height: 300px;
     width: 100%;
+    margin-left:1%;
     margin-bottom: 5px;
     color: #1a6a9b;
     background-image: url("../images/IMG-4960.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
 }
-
-/*@media screen and (max-width: 760px) {
-.content {
-    width: 100%;
-}
-*/
 
 .vision-box {
     justify-content:end;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
     width: 100%;
-    margin-left: 30px;
+    margin-left: 1%;
     padding: 15px;
     /* more linear gradients to distiguish Vison box, and because I like gradients :) */
-    background-image: linear-gradient(0deg, rgba(0, 195, 255, 0.267), rgba(0, 102, 255, 0.247));
-
+    background-image: linear-gradient(0deg, rgba(0, 195, 255, 0.158), rgba(0, 102, 255, 0.247));
+}
+.prof-pic {
+    width:300px;
+    height:auto;
+    border-radius: 25px;
 }
 
 .content {
     margin-top: 7px;
-    margin-left: 30px;
+    /*changed margin-lefts to 1% to get a more consistent look*/
+    margin-left: 1%;
     background-color: #6380e033;
-
 }
 
+.refactorText {
+    text-decoration: none;
+    font-weight: 800;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    position: absolute;
+    left: 60px;
+    top:
+}
 .refactor-box {
+    border-width: 5px;
     margin-left: 50px;
     background-image: url("../images/horiseon_bigger.png");
     border-width: 1px;
@@ -146,7 +145,7 @@ body {
     text-decoration: none;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100px;
+    height: 150px; 
 }
 .refactor-box:hover {
     background-image: url("../images/horiseon_bigger.png");
@@ -161,7 +160,7 @@ body {
     font-weight: 800;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: xx-large;
-    
+    color: rgb(255, 255, 255);
 }
 
 .portfolio-box {
@@ -190,6 +189,12 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: xx-large;
 }
+.portfolioBoxLink:link {
+    color: #240505;
+}
+.portfolioBoxLink:visited {
+    color: #240505;
+}
 
 .Javascript-box {
     margin-left: 50px;
@@ -217,7 +222,12 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: xx-large;
 }
-
+.javascriptLink:link {
+    color: #240505;
+}
+.javascriptLink:visited {
+    color: #240505;
+}
 
 .future-box {
     margin-left: 50px;
@@ -246,12 +256,19 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: xx-large;
 }
+.futureBoxLink:link {
+    color: #240505;
+}
+.futureBoxLink:visited {
+    color: #240505;
+}
 
 .contact-me {
     margin-top:25px;
     margin-left: 30px;
     margin-right: 20px;
     padding: 20px;
+    /*adjusted from min-width to max-width to fix sizing issues*/
     max-width: 30%;
     border-style: solid;
     border-bottom-width: 5px;
@@ -282,7 +299,6 @@ body {
     width: 150px;
     height: auto;
 }
-
 
 .footer {
     padding: 30px;
