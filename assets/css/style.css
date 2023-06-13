@@ -150,6 +150,7 @@ body {
 .refactor-box:hover {
     background-image: url("../images/horiseon_bigger.png");
     width:auto;
+    /*image grows when hovered over*/
     height: 300px;
     background-repeat: no-repeat;
     background-position: center;
@@ -222,6 +223,7 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: xx-large;
 }
+/*more link coloring to keep it the same*/
 .javascriptLink:link {
     color: #240505;
 }
@@ -316,6 +318,13 @@ body {
     font-weight: 750;
     text-decoration: none;
 }
+.footer a:link {
+    color: #177aa1;
+}
+.footer a:visited {
+    color: #177aa1;
+}
+
 @media screen and (max-width: 768px) {
     header, ul {
       flex-direction: column;
